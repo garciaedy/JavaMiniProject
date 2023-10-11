@@ -1,8 +1,10 @@
 package CinemaRoomSeating;
+import java.util.Scanner;
 
 public class SeatingManager {
 
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Cinema");
 		System.out.println("1 2 3 4 5 6 7 8");
@@ -16,6 +18,12 @@ public class SeatingManager {
 			System.out.println();
 
 		}
+		
+		
+		System.out.println("Enter the number of rows: ");
+		int numberOfRows = scanner.nextInt();
+		System.out.println("Enter the number of seat in each row");
+		int numberOfSeats = scanner.nextInt();
 		
 		
 	}
