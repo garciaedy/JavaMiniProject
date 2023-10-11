@@ -40,6 +40,10 @@ public class SeatingManager {
 
 
 		}
+		System.out.println("Total income: ");
+		System.out.println("$" + totalIncome);
+
+
 	}
 
 }
